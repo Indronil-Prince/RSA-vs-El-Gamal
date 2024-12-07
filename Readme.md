@@ -46,27 +46,17 @@ elgamal_decrypted.txt
 
 
 **Sample Output**
-
+```bash
 The number of bits in the message is: 1022
-
 --------------------------------------------------------------
-
 Enter the keylength (in bits): 2048
-
 --------------------------------------------------------------
-
 RSA Encryption completed in 0.0758 milliseconds.
-
 RSA Decryption completed in 15.3004 milliseconds.
-
 RSA total completed in 15.3762 milliseconds.
-
 --------------------------------------------------------------
-
 ElGamal Encryption completed in 4.3472 milliseconds.
-
 ElGamal Decryption completed in 2.8234 milliseconds.
-
 ElGamal total completed in 7.1706 milliseconds.
-
 --------------------------------------------------------------
+```
