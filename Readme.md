@@ -36,14 +36,12 @@ The program will read the message bits from InputOutput/input.txt and output the
 
 RSA and ElGamal encrypted and decrypted outputs are written to separate files:
 
+```bash
 rsa_encrypted.txt
-
 rsa_decrypted.txt
-
 elgamal_encrypted.txt
-
 elgamal_decrypted.txt
-
+```
 
 **Sample Output**
 ```bash
