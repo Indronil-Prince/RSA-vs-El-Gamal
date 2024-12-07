@@ -53,7 +53,7 @@ To compile the project, use the following command:
 
 ```bash
 g++ -std=c++11 -o cryptoProject main.cpp RSA.cpp ElGamal.cpp FileIO.cpp -lntl -lgmp
-```bash
+```
 
 Make sure all source files (main.cpp, RSA.cpp, RSA.h, ElGamal.cpp, ElGamal.h, FileIO.cpp, FileIO.h) are in the same directory and that the paths to the NTL and GMP libraries are correctly configured in your system's environment.
 
@@ -62,7 +62,7 @@ To run the program, simply execute the compiled binary:
 
 ```bash
 ./cryptoProject
-```bash
+```
 
 The program will prompt for inputs such as key size. Enter the appropriate values to see the performance metrics for RSA and ElGamal algorithms.
 
